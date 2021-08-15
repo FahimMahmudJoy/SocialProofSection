@@ -28,6 +28,7 @@ h1 {
 
 .container {
     width: 65%;
+    /* border: 2px solid red; */
 }
 
 .section-1,
@@ -141,11 +142,60 @@ h3 {
 }
 
 @media (max-width: 1700px) {
+    .container {
+        width: 50%;
+    }
+
+    .ratings {
+        width: 30%;
+    }
+
+    .rating-category {
+        display: block;
+        font-size: 12px;
+    }
+
+    .reviews {
+        /* border: 2px solid blue; */
+    }
+
+    .review {
+        /* border: 2px solid black; */
+        max-height: 10%;
+        width: 35%;
+        padding: 0.7em;
+        margin: 0.5em;
+    }
+
+    .review-colton {
+        margin-bottom: 6em;
+    }
+
+    .review-irene {
+        margin-top: 3em;
+        margin-bottom: 3em;
+    }
+
+    .review-anne {
+        margin-top: 6em;
+    }
+
+    .people {
+        width: 25%;
+    }
+
+    .info,
+    .comment {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 1400px) {
     body {
         background-image: url(/images/bg-pattern-top-mobile.svg), url(/images/bg-pattern-bottom-mobile.svg);
     }
     .container {
-        width: 90%;
+        width: 50%;
     }
 
     .section-1,
@@ -172,5 +222,24 @@ h3 {
 
     .rating {
         margin: 1em;
+    }
+
+    .people {
+        width: 10%;
+    }
+}
+
+@media (max-width: 1100px) {
+    body {
+        font-size: 15px;
+    }
+    .people {
+        width: 10%
+    }
+}
+
+@media (max-width: 600px) {
+    .people {
+        width: 15%
     }
 }
