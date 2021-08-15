@@ -230,6 +230,9 @@ h3 {
 }
 
 @media (max-width: 1100px) {
+    .container {
+        width: 100%;
+    }
     body {
         font-size: 15px;
     }
